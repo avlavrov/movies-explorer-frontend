@@ -1,0 +1,25 @@
+.Footer__link {
+  margin: 0 20px 0 0;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  /* identical to box height */
+
+  text-align: right;
+
+  color: #000000;
+}
+
+.Footer__link:last-child {
+  margin: 0;
+}
+
+@media all and (max-width: 500px) {
+  .Footer__link {
+    margin: 12px auto 12px auto;
+    font-size: 12px;
+    line-height: 15px;
+  }
+}

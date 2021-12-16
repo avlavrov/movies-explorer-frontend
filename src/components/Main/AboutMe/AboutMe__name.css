@@ -1,0 +1,29 @@
+.AboutMe__name {
+  margin: 0;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+  line-height: 58px;
+  /* identical to box height, or 116% */
+
+  letter-spacing: -0.04em;
+
+  color: #000000;
+}
+@media all and (max-width: 1000px) {
+  .AboutMe__name {
+    font-size: 40px;
+    line-height: 40px;
+
+  }
+}
+
+@media all and (max-width: 500px) {
+  .AboutMe__name {
+    font-size: 30px;
+    line-height: 36px;
+    margin: 0 auto 20px 0;
+
+  }
+}

@@ -1,0 +1,16 @@
+.Techs {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 110px 70px 110px 70px;
+
+  background-color: #FAFAFA;
+}
+
+@media all and (max-width: 500px) {
+  .Techs {
+    justify-content: center;
+    padding: 70px 14px 70px 14px;
+  }
+}

@@ -1,0 +1,17 @@
+.Login__form-name {
+  margin: 5px 0 0 0;
+  padding: 0;
+  border: none;
+
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+
+  color: #000000;
+}
+
+.Login__form-name:invalid {
+  color: red;
+}

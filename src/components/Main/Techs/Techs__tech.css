@@ -1,0 +1,35 @@
+.Techs__tech {
+  width: 90px;
+  height: 60px;
+  margin: 0 10px 0 0;
+  background: #E8E8E8;
+  border-radius: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  letter-spacing: -0.04em;
+
+  color: #000000;
+}
+
+.Techs__tech:last-child {
+  margin: 0;
+}
+
+@media all and (max-width: 500px) {
+  .Techs__tech {
+    width: 84px;
+    height: 57px;
+    margin: 0;
+
+  font-size: 12px;
+  line-height: 15px;
+  }
+}

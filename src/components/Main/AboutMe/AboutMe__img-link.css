@@ -1,0 +1,30 @@
+.AboutMe__img-link {
+  margin: 20px 0 0 0;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 50px;
+  /* identical to box height, or 167% */
+
+  letter-spacing: -0.04em;
+  text-decoration: none;
+
+  color: #000000;
+
+}
+
+@media all and (max-width: 1000px) {
+  .AboutMe__img-link {
+    font-size: 28px;
+    line-height: 50px;
+  }
+}
+
+
+@media all and (max-width: 500px) {
+  .AboutMe__img-link {
+    font-size: 18px;
+    line-height: 28px;
+  }
+}

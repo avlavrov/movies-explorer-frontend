@@ -1,0 +1,22 @@
+.AboutProject__title {
+  margin: 0 auto 23px 0;
+  width: 640px;
+
+ font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 27px;
+letter-spacing: -0.04em;
+
+color: #000000;
+}
+
+@media all and (max-width: 500px) {
+  .AboutProject__title {
+    width: 284px;
+    margin: auto auto 28px auto;
+    font-size: 18px;
+    line-height: 22px;
+
+  }
+}

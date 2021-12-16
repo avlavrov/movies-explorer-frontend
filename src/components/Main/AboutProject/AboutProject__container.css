@@ -1,0 +1,20 @@
+.AboutProject__container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0;
+}
+
+.AboutProject__container:last-child {
+  margin-left: 40px;
+}
+
+@media all and (max-width: 500px) {
+  .AboutProject__container {
+    width: 100%;
+    margin: 0 0 56px 0;
+  }
+  .AboutProject__container:last-child {
+    margin-left: 0;
+  }
+}

@@ -1,0 +1,28 @@
+.AboutMe__job {
+  margin: 18PX 0 26PX 0;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+  /* identical to box height, or 111% */
+
+
+  color: #000000;
+}
+@media all and (max-width: 1000px) {
+  .AboutMe__job {
+    font-size: 12px;
+    line-height: 18px;
+
+  }
+}
+
+@media all and (max-width: 500px) {
+  .AboutMe__job {
+    font-size: 11px;
+    line-height: 16px;
+    margin: 0 auto 20px 0;
+
+  }
+}

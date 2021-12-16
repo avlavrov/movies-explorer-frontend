@@ -1,0 +1,7 @@
+.AboutMe__bio-text {
+  max-width: 600px;
+  margin: 0 auto 0 0;
+  display: flex;
+  flex-direction: column;
+  align-content: stretch;
+}

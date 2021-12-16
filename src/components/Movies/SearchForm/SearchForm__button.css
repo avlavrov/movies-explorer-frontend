@@ -1,0 +1,17 @@
+.SearchForm__button {
+  background: url(../../../images/search-button.svg) center left no-repeat;
+  padding: 3px 19px 3px 0;
+  box-sizing: content-box;
+  border: none;
+  width: 34px;
+  height: 34px;
+  border-right: solid 1px #CBCBCB;
+  margin: 16px 0 16px 0;
+}
+
+@media all and (max-width: 700px) {
+  .SearchForm__button {
+    padding: 3px 25px 3px 0;
+    border-right: none;
+  }
+}

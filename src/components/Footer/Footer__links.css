@@ -1,0 +1,15 @@
+.Footer__links {
+  height: 56px;
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+@media all and (max-width: 500px) {
+  .Footer__links {
+    width: 100%;
+    height: auto;
+    margin: 0 0 21px 0;
+    flex-direction: column;
+  }
+}

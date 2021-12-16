@@ -1,0 +1,18 @@
+.MoviesCard__like-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  outline: none;
+  background: url(../../../images/mark-button.png) center;
+  width: 30px;
+  height: 30px;
+  margin: 19px 14px 19px auto;
+  padding: 0;
+  border: none;
+}
+
+.MoviesCard__like-button:checked {
+  background: url(../../../images/mark-button-active.png) center;
+
+}
