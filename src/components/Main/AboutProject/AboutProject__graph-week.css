@@ -1,0 +1,16 @@
+.AboutProject__graph-week {
+  width: 100%;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  gap: 0;
+  grid-template-columns: 20% 80%;
+  margin: 0 auto 110px auto;
+}
+
+@media all and (max-width: 500px) {
+  .AboutProject__graph-week {
+    grid-template-columns: 35.2% 64.8%;
+    margin: 0 auto 0 auto;
+  }
+}

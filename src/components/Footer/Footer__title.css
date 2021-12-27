@@ -1,0 +1,20 @@
+.Footer__title {
+  margin: 59px 0 20px 0;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+
+  text-align: center;
+
+  color: #A0A0A0;
+}
+
+@media all and (max-width: 500px) {
+  .Footer__title {
+    margin: 79px auto 21px auto;
+    font-size: 12px;
+    line-height: 15px;
+  }
+}

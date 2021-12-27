@@ -1,0 +1,28 @@
+.SearchForm__input {
+  background: url(../../../images/search.svg) no-repeat scroll 5px 3px;
+  border: none;
+  padding: 0 0 0 38px;
+
+  margin: 25px auto 25px 25px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 20px;
+  /* or 111% */
+
+  color: #A0A0A0;
+
+}
+
+@media all and (max-width: 700px) {
+  .SearchForm__input {
+    background: none;
+    padding: 0;
+    margin: 0 10px 0px 10px;
+    width: 100%;
+    height: 72px;
+
+  font-size: 14px;
+  }
+}

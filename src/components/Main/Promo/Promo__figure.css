@@ -1,0 +1,19 @@
+.Promo__figure {
+  width: 310px;
+  height: 304px;
+  margin: 75px 70px 145px auto;
+}
+
+@media all and (max-width: 1100px) {
+  .Promo__figure {
+  margin: 140px auto 48px;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .Promo__figure {
+    width: 210px;
+    height: 206px;
+    margin: 70px auto 44px auto;
+  }
+}

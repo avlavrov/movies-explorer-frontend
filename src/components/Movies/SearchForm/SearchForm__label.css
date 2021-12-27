@@ -1,0 +1,24 @@
+.SearchForm__label {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 18px;
+  /* identical to box height, or 138% */
+
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+
+  margin: 0 30px 0 29px;
+
+
+  color: #000000;
+}
+
+@media all and (max-width: 700px) {
+  .SearchForm__label {
+    font-size: 11px;
+
+    margin: 0 auto 43px auto;
+  }
+}

@@ -1,0 +1,8 @@
+.SearchForm__line {
+  max-width: calc(1280px - 140px);
+  width: 90%;
+  height: 1px;
+  border-bottom: solid 1px #E8E8E8;
+
+  margin: auto 0 2px 0;
+}

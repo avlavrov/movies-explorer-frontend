@@ -1,0 +1,14 @@
+.AboutProject {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  box-sizing: border-box;
+  padding: 110px 70px 110px 70px;
+}
+
+@media all and (max-width: 500px) {
+  .AboutProject {
+    padding: 70px 18px 60px 18px;
+  }
+}

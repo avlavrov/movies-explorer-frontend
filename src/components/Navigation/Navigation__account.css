@@ -1,0 +1,44 @@
+.Navigation__account {
+  width: 99px;
+  height: 32px;
+  margin: 21px 70px 21px 30px;
+
+background: url(../../images/account.png) right no-repeat;
+border: none;
+box-sizing: border-box;
+border-radius: 3px;
+
+text-decoration: none;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height, or 133% */
+
+display: flex;
+align-items: center;
+justify-content: left;
+
+
+color: #000000;
+}
+
+.Navigation__account:hover {
+
+opacity: 50%;
+  cursor: pointer;
+}
+
+@media all and (max-width: 1100px) {
+  .Navigation__account {
+  margin: 21px 30px 21px 30px;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .Navigation__account {
+    width: 54px;
+    height: 26px;
+    margin: 24px 14px 24px auto;
+  }
+}

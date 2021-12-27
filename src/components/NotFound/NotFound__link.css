@@ -1,0 +1,12 @@
+.NotFound__link {
+  margin: 0 auto 60px auto;
+
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #3456F3;
+}

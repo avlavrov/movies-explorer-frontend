@@ -1,0 +1,23 @@
+.AboutMe__avatar {
+  margin: 0 0 0 49px;
+  width: 270px;
+  height: 325px;
+  border-radius: 10px;
+  object-fit: scale-down;
+}
+
+@media all and (max-width: 1000px) {
+  .AboutMe__avatar {
+    width: 255px;
+    height: 307px;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .AboutMe__avatar {
+    width: 292px;
+    height: 352px;
+    margin: 60px 0 40px 0;
+    object-fit: fill;
+  }
+}

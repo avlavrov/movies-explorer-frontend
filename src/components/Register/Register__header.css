@@ -1,0 +1,15 @@
+.Register__header {
+  width: 396px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+
+  margin: 70px auto 40px auto;
+}
+
+@media all and (max-width: 700px) {
+  .Register__header {
+    width: 260px;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,13 @@
+.AboutMe__bio {
+display: flex;
+flex-direction: row;
+margin: 66px 0 100px 0;
+}
+
+
+@media all and (max-width: 500px) {
+  .AboutMe__bio {
+    flex-direction: column-reverse;
+    margin: auto;
+  }
+}

@@ -1,0 +1,5 @@
+.AboutProject__header {
+  width: 100%;
+  display: flex;
+  border-bottom: solid 1px black;
+}

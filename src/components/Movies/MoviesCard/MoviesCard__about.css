@@ -1,0 +1,7 @@
+.MoviesCard__about {
+  width: 280px;
+  margin: 14px auto 14px 14px;
+  display: flex;
+  flex-direction: column;
+
+}

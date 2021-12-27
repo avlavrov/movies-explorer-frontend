@@ -1,0 +1,32 @@
+.SearchForm__checkbox {
+  margin: 0 14px 0 0;
+  position: relative;
+  width: 36px;
+  height: 20px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  outline: none;
+  background: grey;
+  border-radius: 20px;
+}
+
+.SearchForm__checkbox:checked {
+  background: #2BE080;
+}
+
+.SearchForm__checkbox::before {
+  content: '';
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background: #FFFFFF;
+  border-radius: 50%;
+  left: 6px;
+  top: 6px;
+}
+
+.SearchForm__checkbox:checked:before {
+  left: 22px;
+}

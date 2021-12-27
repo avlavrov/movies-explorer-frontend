@@ -1,0 +1,20 @@
+.AboutProject__subtitle {
+    margin: 0 auto 26px 0;
+    width: 100%;
+
+    font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: -0.04em;
+
+color: #000000;
+  }
+
+  @media all and (max-width: 500px) {
+    .AboutProject__subtitle {
+      font-size: 18px;
+      line-height: 22px;
+      margin: 0 auto 16px 0;
+    }
+  }

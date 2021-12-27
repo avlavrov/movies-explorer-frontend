@@ -1,0 +1,20 @@
+.MoviesCard__delete-button {
+
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  outline: none;
+  background: url(../../../images/delete-button.png) center no-repeat;
+
+  width: 30px;
+  height: 30px;
+  margin: 19px 14px 19px auto;
+  padding: 0;
+  border: none;
+}
+
+.MoviesCard__delete-button:hover {
+  transform: rotate(0.25turn);
+  opacity: 0.8;
+}
