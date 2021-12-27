@@ -9,6 +9,7 @@ function SearchForm() {
             placeholder="Фильм"
             type="text"
             minLength="2"
+            required
           />
           <button className="SearchForm__button">
           </button>

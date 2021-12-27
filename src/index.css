@@ -8,7 +8,9 @@
 @import url(./components/Header/header__login-button.css);
 
 @import url(./components/Navigation/Navigation.css);
+@import url(./components/Navigation/Navigation__links.css);
 @import url(./components/Navigation/Navigation__link.css);
+@import url(./components/Navigation/Navigation__account.css);
 
 @import url(./components/Main/Main.css);
 @import url(./components/Main/Promo/Promo.css);
@@ -85,6 +87,9 @@
 @import url(./components/Movies/MoviesCard/MoviesCard__title.css);
 @import url(./components/Movies/MoviesCard/MoviesCard__duration.css);
 @import url(./components/Movies/MoviesCard/MoviesCard__like-button.css);
+
+@import url(./components/SavedMovies/MoviesCardSaved/MoviesCard__delete-button.css);
+
 
 @import url(./components/Register/Register.css);
 @import url(./components/Register/Register__header.css);

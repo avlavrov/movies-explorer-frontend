@@ -1,10 +1,11 @@
 .Navigation__link {
-  width: 76px;
   height: 32px;
+  margin: 0 20px 0 0;
+
   font-style: normal;
   font-weight: 500;
-  font-size: 12px;
-  line-height: 16px;
+  font-size: 14px;
+  line-height: 18px;
   text-decoration: none;
   /* identical to box height, or 133% */
 
@@ -15,9 +16,22 @@
   color: #000000;
 }
 
+.Navigation__link-main {
+  font-size: 12px;
+  line-height: 16px;
+}
+
 .Navigation__link:hover {
   cursor: pointer;
   opacity: 0.5;
+}
+
+.Navigation__link:active {
+  font-weight: bold;
+}
+
+.Navigation__link:last-child {
+  margin: 0 50px 0 0;
 }
 
 @media all and (max-width: 500px) {

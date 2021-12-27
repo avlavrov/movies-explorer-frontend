@@ -6,7 +6,7 @@
   margin: 0;
 }
 
-@media all and (max-width: 500px) {
+@media all and (max-width: 760px) {
   .Techs__techs-container {
     width: 178px;
     display: grid;

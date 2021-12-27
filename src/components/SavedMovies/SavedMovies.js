@@ -1,14 +1,15 @@
 import Header from '../Header/Header.js';
 import SearchForm from '../Movies/SearchForm/SearchForm.js';
-import MoviesCardList from '../Movies/MoviesCardList/MoviesCardList.js';
+import MoviesCardListSaved from '../SavedMovies/MoviesCardListSaved/MoviesCardListSaved';
 import Footer from '../Footer/Footer.js';
 
 function SavedMovies() {
   return (
       <main className="Movies">
-        <Header/>
+        <Header
+        signedin={true} />
         <SearchForm/>
-        <MoviesCardList/>
+        <MoviesCardListSaved/>
         <Footer/>
       </main>
   )

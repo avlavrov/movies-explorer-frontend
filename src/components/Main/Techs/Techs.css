@@ -5,12 +5,14 @@
   box-sizing: border-box;
   padding: 110px 70px 110px 70px;
 
-  background-color: #FAFAFA;
+  background-color: #F5F5F5;
 }
 
 @media all and (max-width: 500px) {
   .Techs {
     justify-content: center;
     padding: 70px 14px 70px 14px;
+
+    background-color: #FAFAFA;
   }
 }

@@ -1,9 +1,9 @@
-.header__login-button {
-  width: 76px;
+.Navigation__account {
+  width: 99px;
   height: 32px;
   margin: 21px 70px 21px 30px;
 
-background: #3456F3;
+background: url(../../images/account.png) right no-repeat;
 border: none;
 box-sizing: border-box;
 border-radius: 3px;
@@ -11,33 +11,32 @@ border-radius: 3px;
 text-decoration: none;
 font-style: normal;
 font-weight: 500;
-font-size: 12px;
-line-height: 16px;
+font-size: 14px;
+line-height: 18px;
 /* identical to box height, or 133% */
 
 display: flex;
 align-items: center;
-justify-content: center;
+justify-content: left;
 
 
-color: #FFFFFF;
+color: #000000;
 }
 
-.header__login-button:hover {
+.Navigation__account:hover {
 
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+opacity: 50%;
   cursor: pointer;
-  border: solid 1px #000000;
 }
 
 @media all and (max-width: 1100px) {
-  .header__login-button {
+  .Navigation__account {
   margin: 21px 30px 21px 30px;
   }
 }
 
 @media all and (max-width: 500px) {
-  .header__login-button {
+  .Navigation__account {
     width: 54px;
     height: 26px;
     margin: 24px 14px 24px auto;

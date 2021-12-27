@@ -1,4 +1,10 @@
 .header {
   width: 100%;
   display: flex;
+
+}
+
+.header__grey {
+  background-color:#DDDEE3;
+
 }

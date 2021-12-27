@@ -8,7 +8,8 @@ import Footer from '../Footer/Footer.js';
 function Main() {
   return (
       <main className="Main">
-        <Header/>
+        <Header
+        main={true} />
         <Promo/>
         <AboutProject
         id="about"/>
